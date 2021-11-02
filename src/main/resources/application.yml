@@ -20,6 +20,6 @@ spring:
         max-page-size: 2000
         one-indexed-parameters: true
 
-#logging.level:
-#  org.hibernate.SQL: debug
-#  org.hibernate.type: trace
+logging.level:
+  org.hibernate.SQL: debug
+  org.hibernate.type: trace
